@@ -9,10 +9,13 @@ st.set_page_config(page_title="Resultados ESG (FCFF)", layout="centered")
 # =========================
 # PARÂMETROS DA REGRESSÃO
 # =========================
-THETA_MEAN = 0.01454135691803
-THETA_LOW = -0.0015497
-THETA_HIGH = 0.0127738
+THETA_MEAN = 0.0145414
+THETA_LOW = -0.0007664
+THETA_HIGH = 0.0298491
    
+
+
+
 # =========================
 # PARÂMETROS PADRÃO
 # =========================
