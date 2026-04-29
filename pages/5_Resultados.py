@@ -59,8 +59,8 @@ if "iesg" not in st.session_state:
     st.warning("Preencha as páginas ESG primeiro.")
     st.stop()
 
-esg_score = st.session_state.iesg * 100
-st.metric("Score ESG", f"{esg_score:.1f}")
+esg_score = st.session_state.iesg
+st.metric("Score ESG", f"{esg_score*100:.1f}")
 
 # =========================
 # PARÂMETROS
